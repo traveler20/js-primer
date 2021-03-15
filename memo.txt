@@ -1,0 +1,43 @@
+Microsoft Windows [Version 10.0.19042.867]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\owner>node -v
+v14.16.0
+
+C:\Users\owner>npm -v
+6.14.11
+
+C:\Users\owner>npx @js-primer/hello-world
+npx: installed 1 in 4.259s
+Hello World!
+
+C:\Users\owner>npm install --global @js-primer/hello-world
+C:\Users\owner\AppData\Roaming\npm\js-primer-hello-world -> C:\Users\owner\AppData\Roaming\npm\node_modules\@js-primer\hello-world\index.js
++ @js-primer/hello-world@1.0.0
+added 1 package from 1 contributor in 0.147s
+
+C:\Users\owner>js-primer-hello-world
+Hello World!
+
+C:\Users\owner>cd C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer>npx @js-primer/local-server
+npx: installed 101 in 11.794s
+
+js-primerのローカルサーバを起動しました。
+次のURLをブラウザで開いてください。
+
+  URL: http://localhost:3000
+
+Ctrl+Cのショートカットを押下することでローカルサーバを終了できます。
+
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /js/script.js ——> 200 OK application/javascript; charset=UTF-8
+GET /favicon.ico ——> 404 Not Found text/html; charset=utf-8
+
+js-primerのローカルサーバを終了しました。
+
+バッチ ジョブを終了しますか (Y/N)?
+バッチ ジョブを終了しますか (Y/N)? y
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer>
