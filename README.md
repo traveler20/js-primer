@@ -2,4 +2,5 @@
 JSprimerの学習記録
 
 次はここから
-https://jsprimer.net/basic/operator/
+
+https://jsprimer.net/use-case/ajaxapp/
