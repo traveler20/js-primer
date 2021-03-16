@@ -37,7 +37,157 @@ GET /favicon.ico ——> 404 Not Found text/html; charset=utf-8
 
 js-primerのローカルサーバを終了しました。
 
-バッチ ジョブを終了しますか (Y/N)?
 バッチ ジョブを終了しますか (Y/N)? y
 
 C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer>
+
+
+
+Microsoft Windows [Version 10.0.19042.867]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+C:\Users\owner>
+C:\Users\owner>npx @js-primer/local-server
+npx: installed 101 in 10.595s
+
+ownerのローカルサーバを起動しました。
+次のURLをブラウザで開いてください。
+
+  URL: http://localhost:3000
+
+Ctrl+Cのショートカットを押下することでローカルサーバを終了できます。
+
+GET / ——> 404 Not Found text/html; charset=utf-8
+
+ownerのローカルサーバを終了しました。
+
+バッチ ジョブを終了しますか (Y/N)?
+バッチ ジョブを終了しますか (Y/N)? n
+
+C:\Users\owner>cd C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\002_Ajax
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\002_Ajax>npx @js-primer/local-server
+npx: installed 101 in 6.313s
+
+002_Ajaxのローカルサーバを起動しました。
+次のURLをブラウザで開いてください。
+
+  URL: http://localhost:3000
+
+Ctrl+Cのショートカットを押下することでローカルサーバを終了できます。
+
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET /favicon.ico ——> 404 Not Found text/html; charset=utf-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+GET / ——> 200 OK text/html; charset=UTF-8
+GET /index.js ——> 200 OK application/javascript; charset=UTF-8
+
+002_Ajaxのローカルサーバを終了しました。
+
+バッチ ジョブを終了しますか (Y/N)? n
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\002_Ajax>cd C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>node main.js
+Hello World!
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>node main.js one two=three four
+Hello World!
+process.argv
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>node main.js one two=three four
+Hello World!
+[
+  'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Users\\owner\\Desktop\\00_memo\\00_PracticeFile\\js-primer\\003_CLIapp\\main.js',
+  'one',
+  'two=three',
+  'four'
+]
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>npm init --yes
+Wrote to C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp\package.json:
+
+{
+  "name": "003_CLIapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>npm install commander@5.0
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN 003_CLIapp@1.0.0 No description
+npm WARN 003_CLIapp@1.0.0 No repository field.
+
++ commander@5.0.0
+added 1 package from 1 contributor and audited 1 package in 1.238s
+found 0 vulnerabilities
+
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>node main.js ./sample.md
+Hello World!
+[
+  'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Users\\owner\\Desktop\\00_memo\\00_PracticeFile\\js-primer\\003_CLIapp\\main.js',
+  './sample.md'
+]
+foo
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>node main.js ./sample.md
+Hello World!
+[
+  'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Users\\owner\\Desktop\\00_memo\\00_PracticeFile\\js-primer\\003_CLIapp\\main.js',
+  './sample.md'
+]
+foo
+./sample.md
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>node main.js sample.md
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp\main.js:21
+const program = require("commander");
+      ^
+
+SyntaxError: Identifier 'program' has already been declared
+[90m    at wrapSafe (internal/modules/cjs/loader.js:979:16)[39m
+[90m    at Module._compile (internal/modules/cjs/loader.js:1027:27)[39m
+[90m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)[39m
+[90m    at Module.load (internal/modules/cjs/loader.js:928:32)[39m
+[90m    at Function.Module._load (internal/modules/cjs/loader.js:769:14)[39m
+[90m    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)[39m
+[90m    at internal/main/run_main_module.js:17:47[39m
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>node main.js sample.md
+# sample
+
+
+C:\Users\owner\Desktop\00_memo\00_PracticeFile\js-primer\003_CLIapp>npm install marked@1.0.0
+npm WARN 003_CLIapp@1.0.0 No description
+npm WARN 003_CLIapp@1.0.0 No repository field.
+
++ marked@1.0.0
+added 1 package from 1 contributor and audited 2 packages in 1.214s
+found 0 vulnerabilities
